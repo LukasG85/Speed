@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    height: 100vh;
+    background-image: url("word.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+h1 {
+    height: 10vh;
+    text-align: center;
+    line-height: 10vh;
+    text-transform: uppercase;
+    background-color: rgba(0, 0, 0, 0.9);
+    color: #fff;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 90vh;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.game-panel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-basis: 100%;
+    padding-top: 20px;
+}
+
+.game-panel p {
+    font-size: 1.3rem;
+    text-transform: capitalize;
+    color: #fff;
+}
+
+.game-panel p span {
+    color: green;
+}
+
+.game-panel #current-word {
+    margin: 20px 0;
+    font-size: 3.5rem;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.game-panel #word-input {
+    height: 50px;
+    width: 40vw;
+    margin: 20px 0;
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+.game-panel #message {
+    height: 40px;
+    color: #fff;
+    font-size: 1.5rem;
+    margin: 30px 0 0 0;
+}
+
+.result {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.result h3 {
+    font-size: 2.5rem;
+    color: #fff;
+}
+
+.result h3 span {
+    color: green;
+}
+
+.instructions {
+    width: 40vw;
+    /* height: 60px; */
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.instructions h5 {
+    margin-bottom: 20px;
+    font-size: 1rem;
+}
+
+.instructions p {
+    font-size: 1rem;
+}

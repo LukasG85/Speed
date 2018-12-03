@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>speed word</h1>
+
+    <div class="wrapper">
+        <button class="easy">Easy</button>
+        <button class="medium">Medium</button>
+        <button class="hard">Hard</button>
+        <!-- Word & Input -->
+        <div class="game-panel">
+            <p class="lead">Time to enter the word
+                <span id="seconds">5</span> Seconds:
+            </p>
+            <h2 id="current-word">hello</h2>
+            <input type="text" placeholder="Start typing.." id="word-input">
+            <h4 id="message"></h4>
+            <!-- Time & Score Columns -->
+            <div class="result">
+                <h3>Time Left: <span id="time">0</span></h3>
+                <h3>Score:<span id="score"> 0</span></h3>
+            </div>
+            <!-- Instructions -->
+            <div class="instructions">
+                <h5>Instructions</h5>
+                <p>Enter the word displayed before the time runs out!!!</p>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
